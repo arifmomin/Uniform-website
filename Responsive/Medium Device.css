@@ -1,0 +1,105 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+.navbar {
+    padding: 5px 0;
+}
+.navbar-toggler {
+    border: none;
+    display: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-collapse {
+	flex-basis: 0%;
+	flex-grow: 1;
+	align-items: center;
+}
+.navbar-nav {
+	justify-content: end;
+	column-gap: 18px;
+	flex-direction: row;
+}
+.collapse:not(.show) {
+	display: inline;
+}
+#banner-part {
+    padding: 150px 0 80px;
+}
+.banner-heading {
+	font: 500 36px/38px var(--inter);
+}
+.banner-button {
+    margin-bottom: 60px;
+}
+.section-title {
+	font-size: 45px;
+	line-height: 43px;
+	margin-bottom: 50px;
+}
+.why-choose-us-row {
+    row-gap: 60px;
+}
+.feature-summary {
+    font: 500 17px/26.8px var(--inter);
+}
+#uniform-section {
+    padding: 0;
+}
+.uniform-content {
+    row-gap: 50px;
+    margin-bottom: 40px;
+}
+.uniform-title {
+    margin-top: 50px;
+}
+.common-btn {
+    margin-top: 20px;
+}
+#footer-section {
+    padding: 70px 0;
+}
+.footer-row {
+	row-gap: 40px;
+}
+.footer-section-logo{
+    margin-bottom: 15px;
+}
+.branch-title {
+    margin-bottom: 10px;
+}
+.company-list {
+    row-gap: 2px;
+    margin-top: 0px;
+}
+.branch-info {
+    row-gap: 0px;
+}
+.aboutUs_video iframe {
+	max-height: 220px;
+}
+.aboutUs_left_item h3{
+	height: auto;
+}
+.aboutUs_left_row {
+	row-gap: 20px;
+}
+#ourService {
+	padding: 0;
+}
+.ourService_title {
+	font: 500 46px/46px var(--inter);
+	margin: 50px 0 50px;
+}
+.contact-title {
+	font: 500 60px/60px var(--inter);
+}
+.form-title {
+	font: 500 44px/44px var(--inter);
+}
+#contact-form {
+	row-gap: 10px;
+}
+.map-section iframe {
+	height: 270px;
+}
+}

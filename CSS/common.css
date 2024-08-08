@@ -1,0 +1,119 @@
+/* =======================font link start===================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* --------------------font link end---------------------- */
+/* =======================common css start===================== */
+* {
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+div,
+img,
+span,
+a {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    background: #ffffff;
+}
+/* ----------------------common css end----------------------- */
+/* ======================css veriable part start==================== */
+:root{
+    --inter: "Inter", sans-serif;
+    --common-color: #00a2d7;
+}
+
+/* ----------------------css veriable part end----------------------- */
+/* ======================navbar part start==================== */
+.navbar{
+    width: 100%;
+    position: absolute;
+    padding: 20px 0;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    column-gap: 18px;
+}
+.nav-link{
+    font: 400 16px/26.4px var(--inter);
+    color: #000;
+}
+.navbar-logo{
+    max-width: 157px;
+    max-height: 64px;
+}
+/* ----------------------navbar part end----------------------- */
+/*==============================footer part start========================== */
+#footer-section{
+    padding: 100px 0;
+    background: #eeeeee;
+}
+.footer-logo{
+    width: 227px;
+}
+.company-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 20px;
+}
+.company-item{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+}
+.branch-title{
+    font: 500 16px/19px var(--inter);
+    color: #000;
+    margin: 20px 0;
+}
+.branch-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.branch-item span{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+}
+.branch-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+.branch-item span a{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    text-decoration: underline;
+}
+/* ------------------------------footer part end--------------------------- */

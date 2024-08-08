@@ -1,0 +1,366 @@
+/* ======================css veriable part start==================== */
+:root {
+    --inter: "Inter", sans-serif;
+    --common-color: #00a2d7;
+}
+
+/* ----------------------css veriable part end----------------------- */
+/* ======================banner markup start==================== */
+#banner-part {
+    padding: 200px 0 100px;
+}
+
+.banner-heading {
+    font: 500 64px/62px var(--inter);
+    color: #000;
+}
+
+.banner-description {
+    font: 400 16px/24px var(--inter);
+    color: #000;
+    margin-top: 20px;
+}
+
+.common-btn {
+    width: 118px;
+    height: 54px;
+    background: var(--common-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 16px/24px var(--inter);
+    color: #fff;
+    border: 0px;
+    margin-top: 25px;
+    transition: all linear .1s;
+}
+
+.common-btn:hover {
+    background: #000;
+}
+
+/* ----------------------banner markup end----------------------- */
+/* ======================why choose us markup start==================== */
+#why-choose-us {
+    padding-bottom: 50px;
+}
+
+.section-title {
+    font: 500 50px/50px var(--inter);
+    color: #000;
+    text-align: center;
+    margin: 0% auto;
+    margin-bottom: 60px;
+}
+
+.feature-img {
+    width: 80%;
+}
+
+.feature-summary {
+    font: 500 24px/28.8px var(--inter);
+    color: #000;
+    margin-top: 40px;
+}
+
+/* ----------------------why choose us markup end----------------------- */
+/* ======================uniform_part markup start==================== */
+#uniform-section {
+    padding: 80px 0;
+}
+
+.uniform-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+
+.uniform-img {
+    border-radius: 100em;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.uniform-title {
+    font: 500 42px/43px var(--inter);
+    color: #000;
+}
+
+.uniform-description {
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    margin: 20px 0 30px;
+}
+
+/* ----------------------uniform_part markup end----------------------- */
+/* ===========================about us markup start======================= */
+#aboutUs_part {
+    padding: 150px 0 50px;
+}
+
+.aboutUs_title {
+    font: 500 60px/60px var(--inter);
+    color: #000;
+}
+
+.aboutUs_summery {
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    margin-top: 15px;
+}
+
+.aboutUs_left_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin-top: 60px;
+}
+
+.aboutUs_left_item h3 {
+    max-width: 344px;
+    height: 57px;
+    padding-left: 20px;
+    border-left: 1px solid #1e1e1e40;
+    font: 500 24px/28px var(--inter);
+    color: var(--common-color);
+}
+
+.aboutUs_video iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+}
+
+.about_right_list {
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.about_right_item {
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    list-style-type: disc;
+}
+
+.about_right_item::marker {
+    color: #000;
+}
+
+/* --------------------------about us markup end--------------------------- */
+/* ==========================ourService markup start======================= */
+#ourService {
+    padding: 100px 0;
+}
+
+.ourService_title {
+    font: 500 60px/60px var(--inter);
+    color: #000;
+    text-align: center;
+    margin: 50px 0 150px;
+}
+
+.ourService_row {
+    padding: 50px 0;
+    border-bottom: 2px solid #4747471a;
+}
+
+.ourService_heading_title {
+    font: 500 40px/40px var(--inter);
+    color: var(--common-color);
+}
+
+.ourService_summery,
+.ourService_item {
+    font: 400 16px/26px var(--inter);
+    color: #000;
+}
+
+.ourService_list {
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.ourService_item {
+    list-style-type: disc;
+}
+
+/* --------------------------ourService markup end--------------------------- */
+/* ===========================product markup start============================ */
+#product-section {
+    padding: 150px 0 100px;
+}
+
+.product-row {
+    row-gap: 50px;
+}
+
+.product-card {
+    width: 100%;
+    background: #F3F3F3;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.product-title {
+    font: 500 60px/60px var(--inter);
+    color: #000;
+    margin-bottom: 100px;
+}
+
+.product-name {
+    font: 500 24px/28px var(--inter);
+    color: #000;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.btn-primary {
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    font: 500 18px/18px var(--inter);
+    color: #000000;
+    border: 2px solid #000;
+    transition: all linear .2s;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background: var(--common-color);
+    border-color: var(--common-color);
+}
+
+/* -------------------------------product markup end--------------------------- */
+/* ===========================contact markup start============================= */
+#contact-section {
+    padding: 150px 0 70px;
+}
+
+.contact-title {
+    font: 500 80px/80px var(--inter);
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-title {
+    font: 500 60px/60px var(--inter);
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.form-group {
+    width: 100%;
+    height: 60px;
+    border: 1px solid var(--common-color);
+    position: relative;
+}
+
+#name-input,
+#email-input,
+#phone-input,
+#message-textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 15px;
+}
+
+#message-textarea {
+    padding: 15px 15px;
+}
+
+.form-group input:focus~label,
+.form-group input:valid~label {
+    top: -14px;
+    font-size: 13px;
+    transition-delay: linear .3s;
+}
+
+.form-group textarea:focus~label,
+.form-group textarea:valid~label {
+    top: -14px;
+    font-size: 13px;
+    transition-delay: linear .3s;
+}
+
+.form-label {
+    position: absolute;
+    top: 0%;
+    left: 15px;
+    transform: translateY(62%);
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #000;
+    transition: all linear .2s;
+}
+
+.form-label .required-indicator {
+    font-size: 85%;
+    font-weight: 400;
+    opacity: .6;
+}
+
+.message-group {
+    height: 100% !important;
+}
+
+.submit-button {
+    width: 81px;
+    height: 54px;
+    border: none;
+    background: var(--common-color);
+    font: 400 16px/16px var(--inter);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .2s;
+}
+
+.submit-button:hover {
+    background: #000;
+}
+
+.map-section iframe {
+	width: 100%;
+	height: 350px;
+}
+.address-section {
+    justify-content: space-between;
+}
+
+.address-title {
+    font: 500 24px/28px var(--inter);
+    color: #000;
+    margin: 12px 0 20px;
+}
+
+.address-item {
+    font: 400 16px/24px var(--inter);
+    color: #000;
+}
+
+.address-link {
+    font: 400 16px/16px var(--inter);
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ---------------------------contact markup end-------------------------------- */

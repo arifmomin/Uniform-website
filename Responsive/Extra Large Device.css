@@ -1,0 +1,5 @@
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.banner-heading {
+    font: 500 60px/62px var(--inter);
+}
+}
