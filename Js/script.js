@@ -49,29 +49,12 @@ zoomImg.addEventListener('mouseleave', function() {
 
 
 // ===========================image pop up
-// const images = document.querySelectorAll(".zoom-img");
-// const popup = document.querySelector(".product-pop-up-img");
-// const close_button = document.querySelector(".cancle-button");
-// images.forEach((eachitem) => {
-//     eachitem.addEventListener("click", () => {
-//         popup.classList.add("pop-Up-active");
-//     });
-// });
-// close_button.addEventListener("click", () => {
-//     popup.classList.remove("pop-Up-active");
-// });
-
-
-
-
-
 const images = document.querySelectorAll(".zoom-img");
 const popup = document.querySelector(".product-pop-up-img");
 const close_button = document.querySelector(".cancle-button");
 
-// Function to add event listeners for PCs only
 function initPcOnlyScript() {
-    if (window.innerWidth > 1024) { // Check if the screen width is greater than 1024px
+    if (window.innerWidth > 1024) { 
         images.forEach((eachitem) => {
             eachitem.addEventListener("click", () => {
                 popup.classList.add("pop-Up-active");
@@ -84,12 +67,8 @@ function initPcOnlyScript() {
     }
 }
 
-// Call the function to initialize the script
 initPcOnlyScript();
-
-// Optionally, recheck on window resize to handle cases where screen size changes
 window.addEventListener("resize", () => {
-    // You may remove previous event listeners if needed before re-initializing
     if (window.innerWidth > 1024) {
         initPcOnlyScript();
     } else {
