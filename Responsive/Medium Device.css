@@ -43,10 +43,19 @@
     font: 500 17px/26.8px var(--inter);
 }
 #product-details-part {
-	padding: 120px 0 80px;
+	padding: 120px 0 200px;
 }
 .product-row {
 	margin-top: 50px;
+}
+.zoom-container {
+	height: 438px;
+}
+.product-item-name {
+	font: 500 38px/40px var(--inter);
+}
+.product-price {
+	font: 400 36px/36px var(--inter);
 }
 #uniform-section {
     padding: 0;

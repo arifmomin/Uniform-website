@@ -312,22 +312,6 @@
     text-align: center;
     margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form-title {
     font: 500 60px/60px var(--inter);
     color: #000;
@@ -447,8 +431,8 @@
 }
 /* ---------------------------contact markup end-------------------------------- */
 /* ========================product details markup start ==================== */
-#product-details-part{
-    padding: 120px 0;
+#product-details-part {
+	padding: 120px 0 200px;
 }
 .product-details-row{
     display: flex;
@@ -465,20 +449,55 @@
 .product-slider-row{
     justify-content: center;
 }
-.zoom-container{
-    width: 100%;
-    overflow: hidden;
+.product-zoom-img{
+    position: relative;
+}
+.pop-Up-active {
+	position: absolute;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 79%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.pop-Up-active .zoom-container{
+    height: auto;
+}
+.pop-Up-active .Thumbnail-group{
+    display: none;
+}
+.cancle-button {
+	font: 500 36px/36px var(--inter);
+	color: red;
+	position: absolute;
+	top: -3%;
+	right: -6%;
+    display: none;
+    cursor: pointer;
+}
+.pop-Up-active .cancle-button{
+    display: inline;
+}
+.zoom-container {
+	width: 100%;
+	overflow: hidden;
+	height: 560px;
 }
 .zoom-img{
     width: 100%;
     cursor: pointer;
     border: 2px solid var(--common-color);
 }
-.Thumbnail-group{
-    display: flex;
-    justify-content: center;
-    column-gap: 15px;
-    margin-top: 20px;
+.Thumbnail-group {
+	display: flex;
+	justify-content: center;
+	column-gap: 15px;
+	position: absolute;
+	bottom: -170px;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 .Thumbnail-group .Thumbnail-img {
 	width: 90px;

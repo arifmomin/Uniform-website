@@ -195,13 +195,19 @@
 #product-details-part {
 	padding: 120px 0 60px;
 }
+.zoom-container {
+	height: 356px;
+}
+.Thumbnail-group {
+	bottom: -60px;
+}
 .Thumbnail-group .Thumbnail-img {
 	width: 60px;
 	height: 65px;
 }
 .product-item-name {
 	font: 500 26px/28px var(--inter);
-	margin-top: 50px;
+	margin-top: 70px;
 }
 .product-price {
 	font: 400 26px/26px var(--inter);

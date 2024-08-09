@@ -65,6 +65,16 @@
 #product-details-part {
 	padding: 120px 0 60px;
 }
+.zoom-container {
+	height: 655px;
+	margin-bottom: 200px;
+}
+.product-item-name {
+	font: 500 38px/38px var(--inter);
+}
+.product-price {
+	font: 400 34px/34px var(--inter);
+}
 .product-row {
 	margin-top: 50px;
 }

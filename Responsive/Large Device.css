@@ -5,4 +5,10 @@
 .section-title {
 	font-size: 45px;
 }
+.zoom-container {
+	height: 370px;
+}
+#product-details-part {
+	padding: 120px 0 60px;
+}
 }
