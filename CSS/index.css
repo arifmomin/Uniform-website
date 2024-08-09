@@ -445,6 +445,8 @@
     color: #000;
     text-decoration: underline;
 }
+/* ---------------------------contact markup end-------------------------------- */
+/* ========================product details markup start ==================== */
 #product-details-part{
     padding: 120px 0;
 }
@@ -460,18 +462,31 @@
 .product-home{
     text-decoration: underline;
 }
+.product-slider-row{
+    justify-content: center;
+}
 .zoom-container{
-    max-width: 600px;
-    max-height: 400px;
+    width: 100%;
     overflow: hidden;
 }
 .zoom-img{
     width: 100%;
-    transition: all linear .3s;
     cursor: pointer;
+    border: 2px solid var(--common-color);
 }
-.zoom-img:hover{
-    transform: scale(1.2);
+.Thumbnail-group{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.Thumbnail-group .Thumbnail-img {
+	width: 90px;
+	height: 100px;
+	cursor: pointer;
+}
+.Thumbnail-group:has(.active) .Thumbnail-img:not(.active) {
+    opacity: 0.4;
 }
 .product-item-name{
     font: 500 64px/66px var(--inter);
@@ -486,8 +501,24 @@
     font: 400 16px/26px var(--inter);
     color: #000;
 }
+.product-details-btn{
+    width: 338px;
+    height: 80px;
+    border: 2px solid var(--common-color);
+    border-radius: 50px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 18px/16px var(--inter);
+    color: var(--common-color);
+    margin-top: 30px;
+    transition: all linear .3s;
+}
+.product-details-btn:hover{
+    background: var(--common-color);
+    color: #fff;
+}
 
 
-
-
-/* ---------------------------contact markup end-------------------------------- */
+/* ---------------------------product details markup end-------------------------------- */

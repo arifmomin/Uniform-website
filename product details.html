@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black and White Summer Portrait – uniformos</title>
-    <link rel="icon" type="image/png" href="../Images/logo.png">
+    <link rel="icon" type="image/png" href="./Images/logo.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link rel="stylesheet" href="../CSS/common.css">
-<link rel="stylesheet" href="../CSS/index.css">
-<link rel="stylesheet" href="../CSS/responsive.css">
+<link rel="stylesheet" href="./CSS/common.css">
+<link rel="stylesheet" href="./CSS/index.css">
+<link rel="stylesheet" href="./CSS/responsive.css">
 </head>
 <body>
     <!-- =================================navbar markup start=========================== -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="../Pages/index.html">
+            <a class="navbar-brand" href="./home.html">
                 <picture>
-                    <img class="navbar-logo" src="../Images/logo.png" alt="Logo">
+                    <img class="navbar-logo" src="./Images/logo.png" alt="Logo">
                 </picture>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../Pages/about.html">Apie mus</a>
+                        <a class="nav-link" aria-current="page" href="./about.html">Apie mus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../Pages/contact.html">Kontaktai</a>
+                        <a class="nav-link" aria-current="page" href="./contact.html">Kontaktai</a>
                     </li>
                 </ul>
             </div>
@@ -45,33 +45,42 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="product-details-row">
-                    <a class="product-home" href="../Pages/index.html">Home</a>
+                    <a class="product-home" href="./home.html">Home</a>
                     <p class="product-details-title">/ Black and White Summer Portrait</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-5">
+        <div class="row product-slider-row">
+            <div class="col-lg-3 col-md-6">
                 <div class="zoom-container">
-                    <img class="zoom-img img-fluid w-100" src="../Images/product details img.png" alt="../Images/product details img.png">
+                    <span><img id="mainImage" class="zoom-img img-fluid w-100" src="./Images/product-slider-1.png" alt="Main Image"></span>
+                    
+                    <div class="Thumbnail-group">
+                        <span>
+                            <picture><img class="Thumbnail-img" src="./Images/product-slider-1.png" alt="Thumbnail 1"></picture>
+                        </span>
+                        <span>
+                            <picture><img class="Thumbnail-img" src="./Images/product-slider-2.png" alt="Thumbnail 2"></picture>
+                        </span>
+                        <span>
+                            <picture><img class="Thumbnail-img" src="./Images/product-slider-3.png" alt="Thumbnail 3"></picture>
+                        </span>
+                    </div>
                 </div>
                 </div>
-            <div class="col-lg-6 offset-lg-1">
-                <div class="product-item-details">
-                    <h2 class="product-item-name">Black and White Summer Portrait</h2>
-                    <h3 class="product-price">115,00 €</h3>
-                    <p class="product-details-summery">This 24″ x 30″ high-quality print just exudes summer. Hang it on the wall and forget about the world outside. </p>
+            <div class="col-lg-4 col-md-6 offset-lg-1">
+                    <div class="product-item-details">
+                        <h2 class="product-item-name">Black and White Summer Portrait</h2>
+                        <h3 class="product-price">115,00 €</h3>
+                        <p class="product-details-summery">This 24″ x 30″ high-quality print just exudes summer. Hang it on the wall and forget about the world outside. </p>
+                    </div>
+                    <div class="product-details-button">
+                        <button class="product-details-btn">Pasiteirauti</button>
                 </div>
-                
             </div>
         </div>
     </div>
 </section>
-
-
-
-
-
     <!-- --------------------------------product details markup end------------------------------ -->
     <!-- =================================footer markup start=========================== -->
     <footer id="footer-section">
@@ -79,9 +88,9 @@
             <div class="row footer-row">
                 <div class="col-lg-6 col-md-6">
                     <div class="footer-section-logo">
-                        <a href="../Pages/index.html">
+                        <a href="./home.html">
                             <picture>
-                                <img class="footer-logo img-fluid" src="../Images/logo.png" alt="Company Logo">
+                                <img class="footer-logo img-fluid" src="./Images/logo.png" alt="Company Logo">
                             </picture>
                         </a>
                     </div>
@@ -139,6 +148,6 @@
     </footer>
     <!-- --------------------------------footer markup end------------------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../Js/script.js"></script>
+    <script src="./Js/script.js"></script>
 </body>
 </html>

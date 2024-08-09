@@ -62,6 +62,12 @@
 .feature-summary {
     font: 500 22px/26.8px var(--inter);
 }
+#product-details-part {
+	padding: 120px 0 60px;
+}
+.product-row {
+	margin-top: 50px;
+}
 #uniform-section {
     padding: 0;
 }
